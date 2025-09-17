@@ -1,0 +1,234 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: "Bosnia";
+    src: url("Bosnia.otf");
+}
+
+@font-face {
+    font-family: "Cebiela";
+    src: url("CebielaEliniaDemoRegular-BF68ca2242d238f.ttf");
+}
+
+@font-face {
+    font-family: "Poltab Black";
+    src: url("Poltab-Black-BF68b70b6b28f7b.otf");
+}
+
+@font-face {
+    font-family: "Poltab Bold";
+    src: url("Poltab-Bold-BF68b45618a1adc.ttf");
+}
+
+@font-face {
+    font-family: "Poltab ExtraBold";
+    src: url("Poltab-ExtraBold-BF68b45618895fb.ttf");
+}
+
+@font-face {
+    font-family: "Poltab Light";
+    src: url("Poltab-Light-BF68b456187ca66.ttf");
+}
+@font-face {
+    font-family: "Poltab Medium";
+    src: url("Poltab-Medium-BF68b45618b8fa4.ttf");
+}
+@font-face {
+    font-family: "Poltab Regular";
+    src: url("Poltab-Regular-BF68b4561833d5a.ttf");
+}
+@font-face {
+    font-family: "Poltab SemiBold";
+    src: url("Poltab-SemiBold-BF68b45618953fb.ttf");
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, p, a, span, div {
+    color: rgb(29, 21, 53);
+}
+
+
+
+.menu {
+    display: inline-block;
+    position: fixed;
+    top: 1.7em;
+    left: 1.3em;
+    height: 5em;
+    width: 5em;
+    border-radius: 25px;
+    background-color: rgb(45, 159, 70);
+    z-index: 1;
+    transition: all 0.5s ease;
+}
+
+
+.menu:hover {
+    display: inline-block;
+    position: fixed;
+    top: 1.7em;
+    left: 1.3em;
+    height: 35em;
+    width: 35em;
+    border-radius: 25px;
+    background-color: rgba(37, 133, 58, 0.674);
+    backdrop-filter: blur(4px);
+    z-index: 1;
+    transition: all 0.5s ease;
+    .bar1 {
+        opacity: 0.6;
+        transform: translate(0, 5em) rotate(180deg);
+        transition: all 0.5s ease;
+        width: 32em;
+        
+    }
+    .bar2 {
+        opacity: 0.6;
+        transform: translate(0, 9em) rotate(180deg);
+        transition: all 0.5s ease;
+        width: 32em;
+    }
+    .bar3 {
+        opacity: 0.6;
+        transform: translate(0, 14em) rotate(180deg);
+        transition: all 0.5s ease;
+        width: 32em;
+    }
+    .bar4 {
+        opacity: 0.6;
+        transform: translate(0, 20em) rotate(180deg);
+        transition: all 0.5s ease;
+        width: 32em;
+    }
+    .bar5 {
+        opacity: 0.6;
+        transform: translate(0, 26em) rotate(180deg);
+        transition: all 0.5s ease;
+        width: 32em; 
+    }
+    .bar1Text {
+        opacity: 1;
+        transform: translate(11em, 0em) rotate(0deg);
+        transition: all 0.6s ease;
+    }
+    .bar2Text {
+        transform: translate(11em, 0em) rotate(0deg);
+        opacity: 1;
+        transition: all 0.7s ease;
+    }
+    .bar3Text {
+        transform: translate(11em, 0em) rotate(0deg);
+        opacity: 1;
+        transition: all 0.8s ease;
+    }
+    .bar4Text {
+        transform: translate(11em, 0em) rotate(0deg);
+        opacity: 1;
+        transition: all 0.9s ease;
+    }
+    .bar5Text {
+        transform: translate(11em, 0em) rotate(0deg);
+        opacity: 1;
+        transition: all 1s ease;
+    }
+}
+
+.bar1 {
+    top: 1.1em;
+    left: 1.35em;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(29, 21, 53);
+    margin: 6px 0;
+}
+
+.bar1Text {
+    position: absolute;
+    top: -0.30em;
+    left: -10em;
+    font-family: "Cebiela";
+    font-size: 4em;
+    opacity: 1;
+}
+
+.bar2 {
+    top: 2.1em;
+    left: 1.35em;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(29, 21, 53);
+    margin: 6px 0;
+}
+
+.bar2Text {
+    position: absolute;
+    top: 0.95em;
+    left: -10em;
+    font-family: "Cebiela";
+    font-size: 4em;
+    opacity: 1;
+}
+
+.bar3 {
+    top: 3.1em;
+    left: 1.35em;
+    margin: 6px 0;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(29, 21, 53);
+}
+
+.bar3Text {
+    position: absolute;
+    top: 2.45em;
+    left: -10em;
+    font-family: "Cebiela";
+    font-size: 4em;
+    opacity: 1;
+}
+
+.bar4 {
+    top: 3.1em;
+    left: 1.35em;
+    margin: 6px 0;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(29, 21, 53);
+}
+
+.bar4Text {
+    position: absolute;
+    top: 3.95em;
+    left: -10em;
+    font-family: "Cebiela";
+    font-size: 4em;
+    opacity: 1;
+}
+
+.bar5 {
+    top: 3.1em;
+    left: 1.35em;
+    margin: 6px 0;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(29, 21, 53);
+}
+
+.bar5Text {
+    position: absolute;
+    top: 5.45em;
+    left: -10em;
+    padding-right: -3em;
+    font-family: "Cebiela";
+    font-size: 4em;
+    opacity: 1;
+}
+
+
+.bar1, .bar2, .bar3, .bar4, .bar5 {
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    position: absolute;
+}
+
